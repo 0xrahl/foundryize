@@ -4,7 +4,7 @@ Tiny bash script to add [foundry](https://github.com/foundry-rs/foundry) to exis
 
 ## Usage
 
-Make sure you have bash and curl installed on your system.
+Make sure you have bash and curl installed on your system. Navigate to the existing project and run:
 
 ```bash
 bash <( curl -Ls https://raw.githubusercontent.com/ravindranrahul/foundryize/main/foundryize.sh)
