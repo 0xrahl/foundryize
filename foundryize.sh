@@ -52,7 +52,12 @@ cache_path  = 'foundry-cache'
 # See more config options https://book.getfoundry.sh/reference/config.html
 EOL
 
+# Separator line
+echo -e "\n\n"
+echo "============================================================"
 # Inform the user about the next steps
-echo "All set! Go forth and code like a Foundry ninja. 💻🚀"
-echo "Next steps: Create tests in 'foundry-test' and run 'forge test'."
-echo "Learn more: Visit https://book.getfoundry.sh/"
+echo -e "\e[32mAll set! Go forth and code like a Foundry ninja. 💻🚀"
+echo -e "Next steps: Create tests in 'foundry-test' and run 'forge test'."
+echo -e "Learn more: Visit \e[4;32mhttps://book.getfoundry.sh/\e[0m"
+# Separator line
+echo "============================================================"

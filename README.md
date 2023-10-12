@@ -1,13 +1,13 @@
 # Foundryize
 
-Tiny Bash script to automate the process of converting your existing Solidity projects to work with Foundry. Compatible with hardhat. Adapted from [foundry book](https://book.getfoundry.sh/config/hardhat#use-foundry-in-an-existing-hardhat-project).
+Tiny bash script to add [foundry](https://github.com/foundry-rs/foundry) to existing solidity projects. Compatible with hardhat. Adapted from [foundry book](https://book.getfoundry.sh/config/hardhat#use-foundry-in-an-existing-hardhat-project).
 
 ## Usage
 
-Make sure you have Bash and curl installed on your system.
+Make sure you have bash and curl installed on your system.
 
 ```bash
-curl -L https://raw.githubusercontent.com/ravindranrahul/foundryize/main/foundryize.sh | bash
+bash <( curl -Ls https://raw.githubusercontent.com/ravindranrahul/foundryize/main/foundryize.sh)
 ```
 
 The script will guide you through the process and provide instructions for the next steps.
